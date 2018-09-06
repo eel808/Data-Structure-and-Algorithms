@@ -29,7 +29,7 @@ public class QuickSort1 {
 		int pivot=arr[low];
 		while(true){
 			while(arr[j]>pivot) j--;
-			while(arr[i]<pivot){
+			while(arr[i]<=pivot){
 				if(i==high){
 					break;
 				}
